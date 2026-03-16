@@ -1,4 +1,4 @@
-# 🤖 Sistema inteligente de Qualificação de Leads com IA
+# 🤖 Sistema inteligente de Atendimento e Qualificação de Leads com IA
 
 Sistema de **automação de atendimento e qualificação de leads com Inteligência Artificial** para negócios que recebem contatos via **WhatsApp e Instagram**.
 

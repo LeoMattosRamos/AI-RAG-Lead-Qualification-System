@@ -288,10 +288,10 @@ Detalhes específicos de implementação foram omitidos.
 
 ✔ Atendimento 24h  
 ✔ Redução de leads perdidos  
-✔ Aumento da taxa de conversão sem aumentar custo com funcionários
+✔ Aumento da taxa de conversão sem aumentar custo com funcionários  
 ✔ Maior eficiência da equipe de atendimento  
 ✔ Qualificação automática de contatos  
-✔ Visibilidade completa do funil de atendimento
+✔ Visibilidade completa do funil de atendimento  
 
 ---
 

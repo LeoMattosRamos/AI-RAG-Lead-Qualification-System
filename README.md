@@ -45,7 +45,7 @@ Desenvolvi um **sistema de atendimento inteligente automatizado com IA** que:
 4. Encaminha para humanos apenas leads com potencial de conversão  
 5. Gera **dados estruturados e métricas de atendimento**
 
-O objetivo é **aumentar a eficiência do atendimento e reduzir a perda de oportunidades de venda (faturamento)**.
+O objetivo é **aumentar a eficiência do atendimento e reduzir a perda de oportunidades de venda (faturamento)**, sem aumentar o número de funcionários.
 
 
 ---

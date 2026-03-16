@@ -83,8 +83,9 @@ Centralização das mensagens
     ▼         ▼
 Não qual.  Qualificado
     │         │
-IA segue   Transfere
-atendendo   p/ humano (com resumo estruturado)
+IA finaliza   Transfere
+atendimento   p/ humano (com resumo estruturado)
+
                │
                ▼
         Atendimento
@@ -115,9 +116,9 @@ são centralizadas em uma única interface.
 
 Benefícios:
 
-- histórico único de conversas
-- melhor organização do fluxo
-- atendimento mais eficiente
+- Histórico único de conversas
+- Melhor organização do fluxo
+- Atendimento mais eficiente
 
 ---
 
@@ -127,18 +128,19 @@ Um **agente de IA treinado com dados da clínica** inicia automaticamente o aten
 
 Características:
 
-- atendimento 24h por dia e 7 dias por semana
-- comunicação em linguagem natural e humanizada -> nada de chatbots robóticos
-- respostas contextualizadas
-- entendimento da intenção do usuário
+- Atendimento 24h por dia e 7 dias por semana
+- Comunicação em linguagem natural e humanizada -> nada de chatbots robóticos
+- Respostas contextualizadas
+- Quebra de objeções
+- Entendimento da intenção do usuário
 
 Durante a conversa, o agente coleta informações importantes como:
 
-- interesse do paciente
-- tipo de procedimento
-- disponibilidade
-- dúvidas frequentes
-- objeções
+- Interesse do paciente
+- Tipo de procedimento
+- Disponibilidade
+- Dúvidas frequentes
+- Objeções
 
 ---
 
@@ -148,18 +150,18 @@ Para garantir respostas mais precisas foi utilizado **RAG (Retrieval Augmented G
 
 A IA consulta uma base de conhecimento contendo:
 
-- procedimentos
-- profissionais
-- preços
-- horários
-- dúvidas frequentes
-- políticas da clínica
+- Procedimentos
+- Profissionais
+- Preços
+- Horários
+- Dúvidas frequentes
+- Políticas da clínica
 
 Isso reduz:
 
-- alucinações da IA
-- respostas inconsistentes
-- erros de informação
+- Alucinações da IA
+- Respostas inconsistentes
+- Erros de informação
 
 ---
 
@@ -169,9 +171,9 @@ Durante a conversa o sistema identifica se o contato possui **potencial de conve
 
 Critérios analisados:
 
-- interesse real no procedimento
-- intenção de agendamento
-- compatibilidade com os serviços da clínica
+- Interesse real no procedimento
+- Intenção de agendamento
+- Compatibilidade com os serviços da clínica
 
 Quando um lead é qualificado:
 
@@ -183,12 +185,12 @@ Quando um lead é qualificado:
 
 Antes de transferir o atendimento, o sistema gera um **resumo estruturado da conversa**, contendo:
 
-- nome do lead
-- interesse principal
-- dúvidas levantadas
-- intenção de agendamento
-- disponibilidade/preferência de horário
-- ação necessária que o humano deve tomar
+- Nome do lead
+- Interesse principal
+- Dúvidas levantadas
+- Intenção de agendamento
+- Disponibilidade/preferência de horário
+- Ação necessária que o humano deve tomar
 
 Isso permite que o atendente humano continue o atendimento **sem reiniciar o processo**, de forma rápida e eficiente.
 
@@ -202,22 +204,22 @@ Os dados são organizados de forma otimizada para análises e geração de métr
 
 Principais tipos de dados armazenados:
 
-- leads recebidos
-- informações coletadas durante o pré-atendimento
-- status de qualificação do lead
-- transferências para atendimento humano
-- agendamentos realizados
-- canal de origem do contato
-- timestamps de cada etapa do atendimento
+- Leads recebidos
+- Informações coletadas durante o pré-atendimento
+- Status de qualificação do lead
+- Transferências para atendimento humano
+- Agendamentos realizados
+- Canal de origem do contato
+- Timestamps de cada etapa do atendimento
 
 Essa estrutura permite construir análises como:
 
-- volume de leads ao longo do tempo
-- taxa de qualificação
-- taxa de conversão para agendamento
-- tempo médio de atendimento
-- desempenho por canal de origem (WhatsApp vs Instagram)
-- entre outras métricas
+- Volume de leads ao longo do tempo
+- Taxa de qualificação
+- Taxa de conversão para agendamento
+- Tempo médio de atendimento
+- Desempenho por canal de origem (WhatsApp vs Instagram)
+- Entre outras métricas
 
 O modelo de dados foi projetado para facilitar **consultas analíticas em SQL**, possibilitando a criação de dashboards e análises operacionais.
 
@@ -227,14 +229,14 @@ O sistema também gera um **dashboard analítico de atendimento**.
 
 Principais métricas:
 
-- total de leads recebidos
-- leads qualificados
-- agendamentos realizados
-- taxa de conversão
-- funil de atendimento
-- origem dos leads
-- evolução temporal dos atendimentos
-- mapa de calor dos dias/horários de atendimentos
+- Total de leads recebidos
+- Leads qualificados
+- Agendamentos realizados
+- Taxa de conversão
+- Funil de atendimento
+- Origem dos leads
+- Evolução temporal dos atendimentos
+- Mapa de calor dos dias/horários de atendimentos
 
 Essas informações permitem gestão do fluxo de atendimento e **tomada de decisão baseada em dados**.
 
@@ -274,11 +276,11 @@ Por se tratar de um sistema utilizado em projetos reais, os **workflows completo
 
 O objetivo deste projeto é demonstrar:
 
-- a arquitetura da solução
-- o problema de negócio resolvido
-- o uso de IA com RAG
-- a estratégia de qualificação de leads
-- a estrutura de métricas e analytics
+- A arquitetura da solução
+- O problema de negócio resolvido
+- O uso de IA com RAG
+- A estratégia de qualificação de leads
+- A estrutura de métricas e analytics
 
 Detalhes específicos de implementação foram omitidos.
 

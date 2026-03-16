@@ -50,4 +50,4 @@ O dashboard acompanha as seguintes métricas:
 
 ## Performance IA
 
-![dashboard](images/dash2.png)
+![dashboard](images/dash_ia.png)

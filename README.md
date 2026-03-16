@@ -271,4 +271,4 @@ Detalhes específicos de implementação foram omitidos.
 
 # 📌 Objetivo do projeto
 
-Demonstrar na prática como **IA, automação de workflows e análise de dados** podem ser utilizadas para gerar resultados reais ao negócio: aumento de conversão e faturamento com sistema eficiente de atendimento**.
+Demonstrar na prática como **Estratégia + Tecnologia + IA** podem ser utilizadas para gerar resultados reais ao negócio: **aumento de conversão e faturamento com sistema eficiente de atendimento**.

@@ -194,6 +194,33 @@ Isso permite que o atendente humano continue o atendimento **sem reiniciar o pro
 
 ---
 
+# 🗄️ Arquitetura de Dados
+
+Para permitir análise de desempenho e tomada de decisão baseada em dados, o sistema registra eventos do atendimento em um **banco de dados estruturado**.
+
+Os dados são organizados de forma otimizada para análises e geração de métricas operacionais.
+
+Principais tipos de dados armazenados:
+
+- leads recebidos
+- informações coletadas durante o pré-atendimento
+- status de qualificação do lead
+- transferências para atendimento humano
+- agendamentos realizados
+- canal de origem do contato
+- timestamps de cada etapa do atendimento
+
+Essa estrutura permite construir análises como:
+
+- volume de leads ao longo do tempo
+- taxa de qualificação
+- taxa de conversão para agendamento
+- tempo médio de atendimento
+- desempenho por canal de origem (WhatsApp vs Instagram)
+- entre outras métricas
+
+O modelo de dados foi projetado para facilitar **consultas analíticas em SQL**, possibilitando a criação de dashboards e análises operacionais.
+
 # 📊 Dashboard de métricas
 
 O sistema também gera um **dashboard analítico de atendimento**.

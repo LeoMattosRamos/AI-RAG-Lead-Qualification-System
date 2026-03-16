@@ -10,13 +10,14 @@ Os dados são estruturados em banco relacional e alimentados automaticamente a p
 
 Permitir que a clínica acompanhe:
 
-- volume de leads recebidos (leads únicos)
-- volume de atendimentos (atendimentos considerando uma janela de tempo que define o que é novo atendimento) -> 1 lead único pode ter mais de 1 atendimento. Exemplo: o lead X fez outro contato 7 dias depois é considerado um novo atendimento, caso contrário não.
-- qualidade dos leads
-- eficiência do pré-atendimento automatizado
-- conversão em agendamentos
-- origem dos contatos
-- importância do agente de IA (% de atendimentos fora do horário comercial e qualificação)
+- Volume de leads recebidos (leads únicos)
+- Volume de atendimentos (atendimentos considerando uma janela de tempo que define o que é novo atendimento) -> 1 lead único pode ter mais de 1 atendimento. Exemplo: o lead X fez outro contato 7 dias depois é considerado um novo atendimento, caso contrário não. 
+OBS: essa janela de tempo é variável e é definida conforme lógica de cada negócio.
+- Qualidade dos leads
+- Eficiência do pré-atendimento automatizado
+- Conversão em agendamentos
+- Origem dos contatos
+- Importância do agente de IA (% de atendimentos fora do horário comercial e qualificação)
 
 Essas informações permitem **otimizar o processo comercial e reduzir perda de oportunidades**.
 

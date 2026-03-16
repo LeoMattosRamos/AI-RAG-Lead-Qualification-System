@@ -54,6 +54,7 @@ O objetivo é **aumentar a eficiência do atendimento e reduzir a perda de oport
 
 Fluxo simplificado de funcionamento da solução:
 
+```
 Usuário entra em contato
 (WhatsApp / Instagram)
          │
@@ -97,7 +98,7 @@ atendendo   p/ humano (com resumo estruturado)
                │
                ▼
       Dashboard de métricas
-
+```
 
 ---
 

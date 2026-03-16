@@ -17,7 +17,7 @@ Porém enfrentam limitações operacionais como:
 
 - Alto volume de mensagens simultâneas
 - Contatos fora do horário comercial
-- Equipe de atendimento limitada
+- Equipe de atendimento limitada 
 - Grande quantidade de curiosos ou leads pouco qualificados
 
 Como consequência:
@@ -63,7 +63,7 @@ Centralização das mensagens
 (Plataforma de atendimento)
          │
          ▼
-  Automação de workflow
+  Webhooks e Automação de workflow
         (N8N)
          │
          ▼
@@ -149,6 +149,7 @@ Para garantir respostas mais precisas foi utilizado **RAG (Retrieval Augmented G
 A IA consulta uma base de conhecimento contendo:
 
 - procedimentos
+- profissionais
 - preços
 - horários
 - dúvidas frequentes
